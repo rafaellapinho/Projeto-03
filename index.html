@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projeto 03</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8"/>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"></div><!--logo-->
+            <nav class="desktop-menu">
+               <ul>
+                   <li><a href="">home</a></li>
+                   <li><a href="">serviços</a></li>
+                   <li><a href="">sobre</a></li>
+                   <li><a href="">contato</a></li>
+               </ul> 
+            </nav>
+            <nav class="mobile-menu">
+               <ul>
+                   <li><a href="">home</a></li>
+                   <li><a href="">serviços</a></li>
+                   <li><a href="">sobre</a></li>
+                   <li><a href="">contato</a></li>
+               </ul> 
+            </nav>
+            <div class="clear"></div>
+            <div class="chamada1">
+               <h2>Sistemas próprios<br />Para empresas autênticas</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium facilisis arcu ac eleifend. Nam aliquam et sem vitae aliquet. Duis sapien nibh, posuere tincidunt vulputate et, pellentesque quis ex.</p>
+            </div><!--chamada1-->
+        </div><!--container--> 
+    </header>
+    <section class="sessao1">
+        <div class="container">
+            <div class="texto-sessao1">
+                <h2>Desenvolvemos sistemas únicos</h2>
+                <p>Para todas as plataformas e diversos segmentos:</p>
+                   <ul>
+                       <li>Lojas virtuais</li>
+                       <li>Sites institucionais</li>
+                       <li>Sistemas corporativos</li>
+                       <li>Muitos outros</li>
+                   </ul>
+                   <div class="clear"></div> 
+                <div class="btn-1-texto">Entre em contato</div>
+            </div>
+            <div class="device-sessao1"></div>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <section class="sessao2">
+        <div class="container">
+            <h2>Desenvolvido por pessoas e para pessoas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium facilisis arcu ac eleifend. Nam aliquam et sem vitae aliquet. Duis sapien nibh, posuere tincidunt vulputate et, pellentesque quis ex.
+            </p>
+            <img src="images/mockup.jpg"/>
+        </div>
+    </section>
+    <section class="sessao3">
+        <div class="part1">
+            <div class="wraper-part1">
+                <h2>Nosso time</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium facilisis arcu ac eleifend. Nam aliquam et sem vitae aliquet. Duis sapien nibh, posuere tincidunt vulputate et, pellentesque quis ex.</p>
+            </div>
+        </div>
+        <div class="part2">
+            <div class="sobre-autor">
+                <div class="titulo-autor">
+                    <div class="wraper-titulo-autor">
+                        <h2>Rafaella Pinho</h2>
+                        <p>Desenvolvedora</p>
+                    </div>
+                    <div class="img-autor"></div>
+                </div>
+                <div class="texto-autor">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium facilisis arcu ac eleifend.</p>
+                </div>
+            </div>
+            <div class="slider-bullets">
+               <span style="background-color: black;"></span> 
+               <span></span> 
+               <span></span> 
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section class="sessao4">
+        <div class="container">
+            <div class="form">
+                <h2>Entre em contato</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium facilisis arcu ac eleifend.</p>
+                <form>
+                    <div><input type="text" name="Nome" placeholder="Nome"></div>
+                    <div><input type="text" name="Email" placeholder="Email"></div>
+                    <div><textarea name="Mensagem" placeholder="Mensagem"></textarea></div>
+                    <div class="clear"></div>
+                    <div><input type="submit" value="Enviar"></div>
+                </form>
+            </div><!--form-->
+            <div class="map-wraper">
+                <h2>Faça uma visita</h2>
+                <div class="map-wraper3">
+                    <div class="map-wraper2">
+                        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBKYNGU3x11nV9qHDxy1OMljhWbwXzY18Y    '></script><div class="map" id='gmap_canvas'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style> <a href='http://maps-generator.com/pt'>Maps-Generator</a><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(-31.7427448,-52.34769829999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-31.7427448,-52.34769829999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Meu mapa</strong><br>Pedro Moacir<br>06510 Pelotas<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    </div><!--map-wraper2-->
+                </div><!--map-wraper3-->
+            </div><!--map-wraper-->
+            <div class="clear"></div>
+        </div><!--container-->
+      
+    </section><!--sessao4-->
+    <footer>
+        <div class="container">
+            <p>Todos os direitos reservados</p>
+            <p>rafaellacpinho@gmail.com</p>
+            <div class="clear"></div>
+        </div><!--container-->
+    </footer>
+
+</body>
+</html>
